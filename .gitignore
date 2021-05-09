@@ -1,0 +1,14 @@
+/node_modules/
+/.idea/dataSources/e092baeb-b935-48c8-97a9-894a22fb41be/storage_v2/_src_/schema/information_schema.FNRwLQ.meta
+/.idea/dataSources/e092baeb-b935-48c8-97a9-894a22fb41be/storage_v2/_src_/schema/mysql.osA4Bg.meta
+/.idea/dataSources/e092baeb-b935-48c8-97a9-894a22fb41be/storage_v2/_src_/schema/performance_schema.kIw0nw.meta
+/.idea/dataSources/e092baeb-b935-48c8-97a9-894a22fb41be/storage_v2/_src_/schema/sys.zb4BAA.meta
+/.idea/dataSources/e092baeb-b935-48c8-97a9-894a22fb41be.xml
+/.idea/.gitignore
+/.idea/.name
+/.idea/cards-against-boolean.iml
+/.idea/dataSources.local.xml
+/.idea/dataSources.xml
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/watcherTasks.xml
