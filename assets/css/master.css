@@ -1,0 +1,97 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+span:hover {
+  color: #FF0000;
+}
+
+input {
+  outline: none;
+  font-size: 18px;
+  border-radius: 10px;
+}
+input:focus {
+  background-color: #AAAAAA;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 18px;
+  border: 2px solid #000000;
+  margin: 5px;
+}
+button:hover {
+  background-color: #CCCCCC;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+#root .overlay {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+#root .overlay .init, #root .overlay .new-game, #root .overlay .join {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#root .overlay .init span, #root .overlay .init input, #root .overlay .init button, #root .overlay .new-game span, #root .overlay .new-game input, #root .overlay .new-game button, #root .overlay .join span, #root .overlay .join input, #root .overlay .join button {
+  padding: 10px 10px;
+}
+#root .overlay .init input, #root .overlay .new-game input, #root .overlay .join input {
+  margin: 5px;
+}
+#root .overlay span {
+  cursor: pointer;
+}
+#root nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 10px;
+  background-color: #AAAAAA;
+}
+#root main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  width: 80%;
+}
+#root main .lista-utenti {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#root main .lista-utenti ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
